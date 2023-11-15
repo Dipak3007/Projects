@@ -19,5 +19,5 @@ This repository contains all the mini projects that I have made till now.
 
 To use this link just append the project name to it (only web apps are valid)
 
-eg: **https://www.dipak3007.github.io/Projects/WeatherApp/**
+eg: **https://dipak3007.github.io/Projects/WeatherApp/**
 
