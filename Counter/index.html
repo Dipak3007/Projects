@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- using tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Counter</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="h-[100vh] flex flex-col items-center justify-center bg-[#344151] gap-10">
+        <div class="text-[#0398d4] font-medium text-[20px]">
+            Increment and Decrement
+        </div>
+        <div class="bg-white flex text-[25px] text-[#344151] rounded-sm gap-12 p-3 px-5">
+            <button class="border-r-2 border-[#bfbfbf] pr-5" onclick="decrement()">
+                <i class="fa-solid fa-minus"></i>
+            </button>
+            <div class="font-bold value">
+                0
+            </div>
+            <button class="border-l-2 border-[#bfbfbf] pl-5" onclick="increment()">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+        </div>
+    </div>
+    
+    <!-- for using minus and plus icons -->
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
+</body>
+</html>
